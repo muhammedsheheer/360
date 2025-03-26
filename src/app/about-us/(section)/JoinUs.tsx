@@ -20,11 +20,11 @@ const JoinUs = ({}) => {
           </h1>
           <p className="max-w-[450px] text-center font-light leading-[160%] text-[#C1B6A6]">
             Savor the rich flavors of expertly grilled kebabs and premium steaks
-            at **360 KEBAB & Steakhouse**. From perfectly seared cuts to
-            traditional Turkish-inspired dishes, every bite is crafted to
-            perfection. Let our warm hospitality and inviting atmosphere turn
-            any meal—whether a casual gathering or a special occasion—into an
-            unforgettable dining experience.
+            at 360 KEBAB & Steakhouse. From perfectly seared cuts to traditional
+            Turkish-inspired dishes, every bite is crafted to perfection. Let
+            our warm hospitality and inviting atmosphere turn any meal—whether a
+            casual gathering or a special occasion—into an unforgettable dining
+            experience.
           </p>
 
           <Button className="group w-fit items-center gap-[1.19rem] px-6 py-6 font-semibold uppercase">

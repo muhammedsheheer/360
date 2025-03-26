@@ -34,7 +34,7 @@ const BavetteStory = ({}) => {
               <br />
               Our menu is a celebration of expertly grilled kebabs, premium
               dry-aged steaks, and mouthwatering sides that capture the essence
-              of true steakhouse excellence. Whether you're savoring a perfectly
+              of true steakhouse excellence. Whether you`re savoring a perfectly
               seared ribeye or indulging in the smoky aroma of our signature
               kebabs, each bite is a tribute to quality and tradition. Paired
               with warm hospitality and an inviting ambiance, **360 KEBAB &

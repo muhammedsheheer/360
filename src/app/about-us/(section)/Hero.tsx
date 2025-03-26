@@ -13,11 +13,11 @@ const Hero = ({}) => {
               <p className="font-manrope font-normal text-[#C1B6A6]">
                 Indulge in the authentic flavors of the finest kebabs and
                 premium steaks, expertly crafted to perfection. At 360 KEBAB &
-                Steakhouse, we don’t just serve food—we create an unforgettable
+                Steakhouse, we don`t just serve food—we create an unforgettable
                 dining experience. From sizzling charcoal-grilled kebabs to
                 succulent, perfectly aged steaks, every bite is a journey of
                 taste and tradition. Savor the richness, embrace the artistry,
-                and discover the flavors you’ve been craving.
+                and discover the flavors you`ve been craving.
               </p>
             </div>
           </div>
