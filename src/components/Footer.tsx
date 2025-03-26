@@ -51,13 +51,13 @@ const Footer = ({}) => {
               >
                 <Link href="/table-booking">booking</Link>
               </Button>
-              <Button
+              {/* <Button
                 variant="link"
                 className="font-manrope text-base font-[400] tracking-[1px] [color:var(--text-light,#FBEAD2)]"
                 asChild
               >
                 <Link href="">Gift voucher</Link>
-              </Button>
+              </Button> */}
             </div>
             <div className="ml-4 flex flex-col gap-2 md:ml-0">
               <h6 className="font-manrope text-base font-[700] uppercase tracking-[1.62px] [color:var(--text-light,#FBEAD2)]">

@@ -5,7 +5,7 @@ import Link from "next/link";
 const JoinUs = ({}) => {
   return (
     <section
-      className="relative flex h-screen w-full items-center justify-center"
+      className="relative flex h-screen w-full items-center justify-center bg-[#000]"
       style={{
         backgroundImage: `url('/images/about-us/image1.jpg')`,
         backgroundSize: "cover",
@@ -18,7 +18,7 @@ const JoinUs = ({}) => {
             <br />
             Flavorful Experience
           </h1>
-          <p className="max-w-[450px] text-center font-light leading-[160%] text-[#C1B6A6]">
+          <p className="max-w-[450px] text-center font-[500] leading-[160%] text-[#fff]">
             Savor the rich flavors of expertly grilled kebabs and premium steaks
             at 360 KEBAB & Steakhouse. From perfectly seared cuts to traditional
             Turkish-inspired dishes, every bite is crafted to perfection. Let

@@ -76,6 +76,13 @@ const Navbar = ({
               variant="link"
               className="px-0 uppercase text-[#FBEAD2]"
             >
+              <Link href="/">Home</Link>
+            </Button>
+            <Button
+              asChild
+              variant="link"
+              className="px-0 uppercase text-[#FBEAD2]"
+            >
               <Link href="/menu">Menu</Link>
             </Button>
             <Button

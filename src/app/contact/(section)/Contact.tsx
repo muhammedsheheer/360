@@ -90,7 +90,7 @@ const Contact = ({}) => {
         <div className="flex w-full flex-col lg:flex-row">
           <div
             style={{
-              backgroundImage: "url(/images/contact/contact2.jpeg)",
+              backgroundImage: "url(/images/about-us/image5.jpg)",
               backgroundPosition: "center",
             }}
             className="relative flex h-screen w-full items-center justify-center lg:ml-[-10px] lg:w-1/2"
