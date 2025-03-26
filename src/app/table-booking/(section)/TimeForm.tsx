@@ -168,8 +168,8 @@ const TimeForm: FC<TimeFormProps> = ({ mainform, setpage }) => {
       </p>
       <p className="max-w-[700px] text-center">
         Call{" "}
-        <Link href="tel:01617955502" className="text-primary">
-          0161 795 5502
+        <Link href="tel:+447707070732" className="text-primary">
+          +447707070732
         </Link>{" "}
         for bookings more than 15 people , thank you.
       </p>

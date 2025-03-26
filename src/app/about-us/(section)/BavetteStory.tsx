@@ -5,14 +5,13 @@ const BavetteStory = ({}) => {
     <section className="relative flex h-full w-full items-center justify-center p-4 lg:py-16">
       <div className="flex h-full w-full flex-col items-center justify-center gap-11 bg-[#050505]">
         <h2 className="text-center font-oswald text-8xl md:left-[15%] md:text-8xl">
-          The Istanbul
-          <br />
-          Story
+          The 360 KEBAB
+          <br />& Steakhouse Story
         </h2>
         <div className="flex h-full w-full flex-col items-center justify-center gap-4 bg-[#050505] md:flex-row lg:px-24 lg:py-20">
           <div className="h-full w-full overflow-hidden p-4 md:w-1/2 md:p-0">
             <Image
-              src="/images/about-us/story2.jpeg"
+              src="/images/about-us/image3.jpg"
               width={1109}
               height={1600}
               alt="private dining"
@@ -26,21 +25,21 @@ const BavetteStory = ({}) => {
               to Sizzle
             </h1>
             <p className="max-w-[450px] text-center font-light leading-[160%] text-[#C1B6A6] md:text-start">
-              Located in the lively area of Manchester, our restaurant is a
-              gateway to the rich culinary traditions of Istanbul. Inspired by
-              Turkey’s vibrant flavors and timeless recipes, we bring an
-              authentic dining experience that celebrates the heart of Turkish
-              cuisine. From the bustling spice markets of Istanbul to the warmth
-              of family kitchens, every dish reflects the passion and heritage
-              of our culture.
+              Located in the heart of Manchester, **360 KEBAB & Steakhouse** is
+              your gateway to a world of bold flavors and culinary mastery.
+              Inspired by the rich traditions of Turkish and Mediterranean
+              cuisine, we bring you an authentic dining experience where every
+              dish is crafted with passion and precision.
               <br />
               <br />
-              Our menu is a journey through the iconic tastes of Turkey,
-              offering everything from tender, sizzling kebabs to the sweet
-              indulgence of baklava. Paired with warm Turkish hospitality and a
-              cozy, inviting atmosphere, our restaurant is more than a place to
-              eat—it’s a celebration of Istanbul’s charm, right here in
-              Manchester.
+              Our menu is a celebration of expertly grilled kebabs, premium
+              dry-aged steaks, and mouthwatering sides that capture the essence
+              of true steakhouse excellence. Whether you're savoring a perfectly
+              seared ribeye or indulging in the smoky aroma of our signature
+              kebabs, each bite is a tribute to quality and tradition. Paired
+              with warm hospitality and an inviting ambiance, **360 KEBAB &
+              Steakhouse** is more than just a restaurant—it’s an experience
+              that brings the soul of Turkish grilling to Manchester.
             </p>
           </div>
         </div>

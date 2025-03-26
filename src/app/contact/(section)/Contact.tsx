@@ -31,7 +31,7 @@ const FormValidation = z.object({
 
 type FormData = z.infer<typeof FormValidation>;
 
-const Contact = ({ }) => {
+const Contact = ({}) => {
   const form = useForm<FormData>({
     resolver: zodResolver(FormValidation),
     defaultValues: {
@@ -58,20 +58,23 @@ const Contact = ({ }) => {
       // );
       toast(
         (t) => (
-          <div className="flex flex-col gap-2 items-center justify-center">
-            <p className="text-center">Your reservation request has been successfully submitted to the restaurant!</p>
+          <div className="flex flex-col items-center justify-center gap-2">
+            <p className="text-center">
+              Your reservation request has been successfully submitted to the
+              restaurant!
+            </p>
             <button
               onClick={() => {
                 toast.dismiss(t.id);
                 form.reset();
               }}
-              className="bg-primary text-white px-4 py-2 rounded"
+              className="rounded bg-primary px-4 py-2 text-white"
             >
               OK
             </button>
           </div>
         ),
-        { duration: Infinity }
+        { duration: Infinity },
       );
     },
     onError: () => {
@@ -83,17 +86,17 @@ const Contact = ({ }) => {
 
   return (
     <section className="flex h-full w-full items-center justify-center bg-[#000000]">
-      <div className="flex h-full w-full flex-col gap-[2.5rem] px-0 pl-0 md:px-2 items-center justify-center pb-12 md:pb-24">
+      <div className="flex h-full w-full flex-col items-center justify-center gap-[2.5rem] px-0 pb-12 pl-0 md:px-2 md:pb-24">
         <div className="flex w-full flex-col lg:flex-row">
           <div
             style={{
               backgroundImage: "url(/images/contact/contact2.jpeg)",
-              backgroundPosition: 'center'
+              backgroundPosition: "center",
             }}
             className="relative flex h-screen w-full items-center justify-center lg:ml-[-10px] lg:w-1/2"
           >
             <div className="absolute left-0 top-0 z-10 h-full w-full bg-black/70"></div>
-            <div className="h-7/12 flex w-full md:w-7/12 flex-col gap-16 px-3 md:px-0 z-20">
+            <div className="h-7/12 z-20 flex w-full flex-col gap-16 px-3 md:w-7/12 md:px-0">
               <div className="flex w-full flex-col gap-10">
                 <div className="flex w-full flex-col gap-2">
                   <p className="font-oswald text-7xl font-extralight">
@@ -109,7 +112,10 @@ const Contact = ({ }) => {
                     variant="ghost"
                     asChild
                   >
-                    <Link href="https://www.instagram.com/istanbulrestaurantmanchester/?hl=en" target="_blank">
+                    <Link
+                      href="https://www.instagram.com/360kebab/"
+                      target="_blank"
+                    >
                       <Icons.instagram />
                     </Link>
                   </Button>
@@ -118,7 +124,10 @@ const Contact = ({ }) => {
                     variant="ghost"
                     asChild
                   >
-                    <Link href="https://www.google.com/maps/place/Istanbul+Restaurant+Manchester/@53.5111071,-2.2442094,15z/data=!4m2!3m1!1s0x0:0x614d0e8514d9a215?sa=X&ved=1t:2428&ictx=111" target="_blank">
+                    <Link
+                      href="https://maps.app.goo.gl/ZTaWWUnjRAwJ24Mn8"
+                      target="_blank"
+                    >
                       <Icons.google />
                     </Link>
                   </Button>
@@ -127,7 +136,10 @@ const Contact = ({ }) => {
                     variant="ghost"
                     asChild
                   >
-                    <Link href="https://www.facebook.com/istanbulrestaurantmanchester/" target="_blank">
+                    <Link
+                      href="https://www.facebook.com/360lounge/"
+                      target="_blank"
+                    >
                       <Icons.facebook />
                     </Link>
                   </Button>
@@ -148,31 +160,31 @@ const Contact = ({ }) => {
                   <div className="flex flex-col gap-2">
                     <p className="flex gap-7 text-[#b3b3aa]">
                       <span>:</span>
-                      <span>11:00am - 11:30pm</span>
+                      <span>3:00pm - 2:00am</span>
                     </p>
                     <p className="flex gap-7 text-[#b3b3aa]">
                       <span>:</span>
-                      <span>11:00am - 11:30pm</span>
+                      <span>11:00am - 2:00am</span>
                     </p>
                     <p className="flex gap-7 text-[#b3b3aa]">
                       <span>:</span>
-                      <span>11:00am - 11:30pm</span>
+                      <span>11:00am - 2:00am</span>
                     </p>
                     <p className="flex gap-7 text-[#b3b3aa]">
                       <span>:</span>
-                      <span>11:00am - 11:30pm</span>
+                      <span>11:00am - 2:00am</span>
                     </p>
                     <p className="flex gap-7 text-[#b3b3aa]">
                       <span>:</span>
-                      <span>11:00am - 11:30pm</span>
+                      <span>11:00am - 2:00am</span>
                     </p>
                     <p className="flex gap-7 text-[#b3b3aa]">
                       <span>:</span>
-                      <span>11:00am - 11:30pm</span>
+                      <span>11:00am - 2:00am</span>
                     </p>
                     <p className="flex gap-7 text-[#b3b3aa]">
                       <span>:</span>
-                      <span>12:00pm - 11:00pm</span>
+                      <span>11:00am - 2:00am</span>
                     </p>
                   </div>
                 </div>
@@ -189,7 +201,7 @@ const Contact = ({ }) => {
                 </div>
                 <div className="flex flex-col gap-4">
                   <p>
-                    2 Bury Old Rd, Manchester M8 9JN,
+                    54-56 Wilmslow Rd, Manchester M14 5AL,
                     <br />
                     United Kingdom
                   </p>
@@ -198,7 +210,10 @@ const Contact = ({ }) => {
                     className="flex gap-2 text-sm text-[#b3b3aa] hover:bg-transparent"
                     asChild
                   >
-                    <Link href="https://www.google.com/maps/place/Istanbul+Restaurant+Manchester/@53.5111071,-2.2442094,15z/data=!4m2!3m1!1s0x0:0x614d0e8514d9a215?sa=X&ved=1t:2428&ictx=111" target="_blank">
+                    <Link
+                      href="https://maps.app.goo.gl/ZTaWWUnjRAwJ24Mn8"
+                      target="_blank"
+                    >
                       <span>Get Direction</span>
                       <MoveRight />
                     </Link>
@@ -212,8 +227,8 @@ const Contact = ({ }) => {
                   </div>
                 </div>
                 <div className="flex flex-col gap-4">
-                  <Link href="tel:+441617955502">
-                    <p>+441617955502</p>
+                  <Link href="tel:+447707070732">
+                    <p>+ +44 7707 070732</p>
                   </Link>
                 </div>
               </div>
@@ -224,7 +239,9 @@ const Contact = ({ }) => {
                   </div>
                 </div>
                 <div className="flex flex-col gap-4 break-all">
-                  <Link href='mailto:reservations@istanbulrestaurantmanchester.co.uk'>reservations@istanbulrestaurantmanchester.co.uk</Link>
+                  <Link href="mailto:grand360-steakhouse.co.uk">
+                    grand360-steakhouse.co.uk
+                  </Link>
                 </div>
               </div>
             </div>
@@ -328,14 +345,14 @@ const Contact = ({ }) => {
             </div>
           </div>
         </div>
-        <div className="w-full flex max-w-[1300px]">
+        <div className="flex w-full max-w-[1300px]">
           <iframe
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d9489.98276496501!2d-2.2501794230760743!3d53.51320360832858!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x487bb1db64a19b53%3A0x614d0e8514d9a215!2sIstanbul%20Restaurant%20Manchester!5e0!3m2!1sen!2sin!4v1731926511514!5m2!1sen!2sin"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2258.1992687127185!2d-2.2252441!3d53.45506639999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x487bb34f27b9d8a5%3A0xfea51c20e750975c!2s360%20KEBAB%20%26%20Steakhouse!5e1!3m2!1sen!2sin!4v1742972351477!5m2!1sen!2sin"
             style={{ border: 0 }}
             allowFullScreen
             loading="lazy"
             referrerPolicy="no-referrer-when-downgrade"
-            className="w-full h-[500px] grayscale invert"
+            className="h-[500px] w-full grayscale invert"
           ></iframe>
         </div>
       </div>

@@ -64,39 +64,53 @@ const Footer = ({}) => {
                 Contact
               </h6>
               <Link
-                href="tel:"
+                href="tel:+447707070732"
                 className="font-manrope text-sm font-[400] [color:var(--text-light,#FBEAD2)]"
               >
-                +44 7707 070732{" "}
+                +44 7707 070732
               </Link>
               <Link
-                href=""
+                href="https://maps.app.goo.gl/ZTaWWUnjRAwJ24Mn8"
                 target="_blank"
                 className="font-manrope text-sm font-[400] [color:var(--text-light,#FBEAD2)]"
               >
                  54-56 Wilmslow Rd, Manchester M14 5AL, United Kingdom
               </Link>
               <Link
-                href="mailto:"
+                href="mailto:grand360-steakhouse.co.uk"
                 className="font-manrope text-sm font-[400] [color:var(--text-light,#FBEAD2)]"
               >
-                grand360-steakhouse.co.uk{" "}
+                grand360-steakhouse.co.uk
               </Link>
 
               <div className="flex flex-row items-center gap-3 pt-8">
-                <Link href={""} target="_blank">
+                <Link
+                  href={"https://www.instagram.com/360kebab/"}
+                  target="_blank"
+                >
                   {" "}
                   <Icons.instagram className="[color:var(--text-light,#FBEAD2)]" />
                 </Link>
-                <Link href={""} target="_blank">
+                <Link
+                  href={
+                    "https://www.tripadvisor.com/Restaurant_Review-g187069-d19297066-Reviews-360_Lounge-Manchester_Greater_Manchester_England.html"
+                  }
+                  target="_blank"
+                >
                   {" "}
                   <Icons.unknown className="[color:var(--text-light,#FBEAD2)]" />
                 </Link>
-                <Link href={""} target="_blank">
+                <Link
+                  href={"https://maps.app.goo.gl/ZTaWWUnjRAwJ24Mn8"}
+                  target="_blank"
+                >
                   {" "}
                   <Icons.google className="[color:var(--text-light,#FBEAD2)]" />
                 </Link>
-                <Link href={""} target="_blank">
+                <Link
+                  href={"https://www.facebook.com/360lounge/"}
+                  target="_blank"
+                >
                   {" "}
                   <Icons.facebook className="[color:var(--text-light,#FBEAD2)]" />
                 </Link>

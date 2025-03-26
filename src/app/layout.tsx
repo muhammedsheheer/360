@@ -13,8 +13,8 @@ import {
 import Providers from "@/app/Providers";
 
 export const metadata: Metadata = {
-  title: "360",
-  description: "360",
+  title: "360 KEBAB & Steakhouse",
+  description: "360 KEBAB & Steakhouse",
   icons: [{ rel: "icon", url: "/images/favicon-32x32.png", sizes: "32x32" }],
 };
 
