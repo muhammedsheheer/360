@@ -5,7 +5,6 @@ import Image from "next/image";
 import Link from "next/link";
 import { useEffect, useState } from "react";
 import Sidebar from "./SideBar";
-import CartSheet from "./cart/CartSheet";
 import { BetaMenuActive } from "@/lib/constants";
 import { usePathname } from "next/navigation";
 import { cn } from "@/lib/utils";
@@ -61,7 +60,7 @@ const Navbar = ({
             isScrolled || (pathname !== "/" && "items-center"),
           )}
         >
-          <Link className="mr-4 md:hidden" href="/">
+          <Link className="mr-4" href="/">
             <Image
               src="/images/logo.png"
               className="w-32"
@@ -71,6 +70,15 @@ const Navbar = ({
             />
           </Link>
           <div className="hidden flex-row items-center justify-center gap-[3.48rem] md:flex">
+            {/* <Link className="" href="/">
+              <Image
+                src="/images/logo.png"
+                className="w-40"
+                width={188}
+                height={56}
+                alt="logo"
+              />
+            </Link> */}
             <Button
               asChild
               variant="link"
@@ -85,6 +93,7 @@ const Navbar = ({
             >
               <Link href="/menu">Menu</Link>
             </Button>
+
             <Button
               asChild
               variant="link"
