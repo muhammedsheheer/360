@@ -49,8 +49,8 @@ const Navbar = ({
     <nav
       className={cn(
         pathname === "/"
-          ? `${position} top-0 z-50 flex h-[12vh] w-full flex-col items-center bg-transparent p-4 transition-all duration-0 ease-in-out md:pt-5`
-          : `${position} top-0 z-50 flex h-[12vh] w-full flex-col items-center bg-transparent p-4 transition-all duration-0 ease-in-out`,
+          ? `${position} top-0 z-50 flex h-[12vh] w-full flex-col items-center bg-transparent p-2 transition-all duration-0 ease-in-out md:p-4 md:pt-5`
+          : `${position} top-0 z-50 flex h-[12vh] w-full flex-col items-center bg-transparent p-2 transition-all duration-0 ease-in-out md:p-4`,
         isScrolled && "h-[12vh] bg-black",
       )}
     >
@@ -61,10 +61,10 @@ const Navbar = ({
             isScrolled || (pathname !== "/" && "items-center"),
           )}
         >
-          <Link className="w-40 md:hidden" href="/">
+          <Link className="mr-4 md:hidden" href="/">
             <Image
               src="/images/logo.png"
-              className="w-24"
+              className="w-32"
               width={188}
               height={56}
               alt="logo"
