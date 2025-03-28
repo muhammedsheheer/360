@@ -93,7 +93,7 @@ const Contact = ({}) => {
               backgroundImage: "url(/images/about-us/image5.jpg)",
               backgroundPosition: "center",
             }}
-            className="relative flex h-screen w-full items-center justify-center lg:ml-[-10px] lg:w-1/2"
+            className="relative mt-6 flex h-full w-full items-center justify-center pb-6 lg:ml-[-10px] lg:w-1/2"
           >
             <div className="absolute left-0 top-0 z-10 h-full w-full bg-black/70"></div>
             <div className="h-7/12 z-20 flex w-full flex-col gap-16 px-3 md:w-7/12 md:px-0">
@@ -147,6 +147,7 @@ const Contact = ({}) => {
               </div>
               <div className="flex flex-col gap-4">
                 <p className="text-lg font-semibold">Working Hours</p>
+                <p className="text-lg font-semibold">360 KEBAB & Steakhouse</p>
                 <div className="flex gap-7">
                   <div className="flex flex-col gap-2">
                     <p className="text-[#b3b3aa]">Monday</p>
@@ -160,7 +161,7 @@ const Contact = ({}) => {
                   <div className="flex flex-col gap-2">
                     <p className="flex gap-7 text-[#b3b3aa]">
                       <span>:</span>
-                      <span>3:00pm - 2:00am</span>
+                      <span>3:00pm-2:00am</span>
                     </p>
                     <p className="flex gap-7 text-[#b3b3aa]">
                       <span>:</span>
@@ -189,6 +190,54 @@ const Contact = ({}) => {
                   </div>
                 </div>
               </div>
+
+              {/* second time */}
+              <div className="flex flex-col gap-4">
+                <p className="text-lg font-semibold">Breakfast</p>
+                <div className="flex gap-7">
+                  <div className="flex flex-col gap-2">
+                    <p className="text-[#b3b3aa]">Monday</p>
+                    <p className="text-[#b3b3aa]">Tuesday</p>
+                    <p className="text-[#b3b3aa]">Wednesday</p>
+                    <p className="text-[#b3b3aa]">Thursday</p>
+                    <p className="text-[#b3b3aa]">Friday</p>
+                    <p className="text-[#b3b3aa]">Saturday</p>
+                    <p className="text-[#b3b3aa]">Sunday</p>
+                  </div>
+                  <div className="flex flex-col gap-2">
+                    <p className="flex gap-7 text-[#b3b3aa]">
+                      <span>:</span>
+                      <span>9:00am-1:00pm</span>
+                    </p>
+                    <p className="flex gap-7 text-[#b3b3aa]">
+                      <span>:</span>
+                      <span>9:00am-1:00pm</span>
+                    </p>
+                    <p className="flex gap-7 text-[#b3b3aa]">
+                      <span>:</span>
+                      <span>9:00am-1:00pm</span>
+                    </p>
+                    <p className="flex gap-7 text-[#b3b3aa]">
+                      <span>:</span>
+                      <span>9:00am-1:00pm</span>
+                    </p>
+                    <p className="flex gap-7 text-[#b3b3aa]">
+                      <span>:</span>
+                      <span>9:00am-1:00pm</span>
+                    </p>
+                    <p className="flex gap-7 text-[#b3b3aa]">
+                      <span>:</span>
+                      <span>9:00am-1:00pm</span>
+                    </p>
+                    <p className="flex gap-7 text-[#b3b3aa]">
+                      <span>:</span>
+                      <span>9:00am-1:00pm</span>
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              {/*end */}
             </div>
           </div>
           <div className="flex w-full flex-col bg-[#000000] pb-24 pt-5 lg:w-1/2 lg:items-center lg:justify-center">
@@ -227,8 +276,8 @@ const Contact = ({}) => {
                   </div>
                 </div>
                 <div className="flex flex-col gap-4">
-                  <Link href="tel:+447707070732">
-                    <p>+ +44 7707 070732</p>
+                  <Link href="tel:+441513453923">
+                    <p>+441513453923</p>
                   </Link>
                 </div>
               </div>

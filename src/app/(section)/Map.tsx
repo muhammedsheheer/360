@@ -44,9 +44,9 @@ const Map = ({}) => {
                 Kingdom{" "}
               </h6>{" "}
             </Link>
-            <Link href={"tel:+447707070732"}>
+            <Link href={"tel:+441513453923"}>
               <span className="font-manrope text-lg font-[300] uppercase text-[#fff]">
-                +44 7707 070732
+                +441513453923
               </span>
             </Link>
             <Link href={"mailto:grand360-steakhouse.co.uk"}>

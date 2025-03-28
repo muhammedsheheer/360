@@ -42,6 +42,7 @@ const Hero = ({}) => {
             loop
             muted
             playsInline
+            poster="/images/thumbnail.png"
           ></video>
         </div>
         <div className="z-40 flex h-full w-full items-center justify-center">
@@ -51,12 +52,12 @@ const Hero = ({}) => {
               STEAKHOUSE
             </h1>
             <div className="flex flex-row items-center justify-center gap-3">
-              <Link href="/table-booking">
+              <Link href="">
                 <Button className="hero-button flex items-center justify-center gap-3 rounded-none bg-[#FBEAD2] px-7 py-7 text-center font-manrope text-sm font-[600] uppercase tracking-[1.96px] text-[#282828] hover:bg-[#f2e6d5]">
                   Order NOw
                 </Button>
               </Link>
-              <Link href="/menu">
+              <Link href="">
                 <Button className="hero-button flex items-center justify-center gap-3 rounded-none bg-[#BC995D] px-7 py-7 text-center font-manrope text-sm font-[600] uppercase tracking-[1.96px] text-[#282828] hover:bg-[#f5cb82]">
                   View Menu
                 </Button>

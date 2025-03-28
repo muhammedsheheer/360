@@ -28,7 +28,7 @@ const Footer = ({}) => {
                 className="font-manrope text-base font-[400] tracking-[1px] [color:var(--text-light,#FBEAD2)]"
                 asChild
               >
-                <Link href="/menu">Menu</Link>
+                <Link href="">Menu</Link>
               </Button>
               <Button
                 variant="link"
@@ -64,10 +64,10 @@ const Footer = ({}) => {
                 Contact
               </h6>
               <Link
-                href="tel:+447707070732"
+                href="tel:+441513453923"
                 className="font-manrope text-sm font-[400] [color:var(--text-light,#FBEAD2)]"
               >
-                +44 7707 070732
+                +44 151 345 3923
               </Link>
               <Link
                 href="https://maps.app.goo.gl/ZTaWWUnjRAwJ24Mn8"

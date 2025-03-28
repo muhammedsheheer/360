@@ -8,7 +8,7 @@ const ViewMenu = ({}) => {
       asChild
       className="z-50 flex aspect-square h-24 flex-col items-center justify-center rounded-full bg-[#1D1D1D] px-0 py-0 text-center text-xs uppercase text-black hover:bg-[#1D1D1D]"
     >
-      <Link className="text-[#8F8F8F]" href="/menu">
+      <Link className="text-[#8F8F8F]" href="">
         <Icons.dining color="#8F8F8F" />
         <span className="text-[#8F8F8F]">
           {" "}

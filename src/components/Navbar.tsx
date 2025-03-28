@@ -91,7 +91,7 @@ const Navbar = ({
               variant="link"
               className="px-0 uppercase text-[#FBEAD2]"
             >
-              <Link href="/menu">Menu</Link>
+              <Link href="">Menu</Link>
             </Button>
 
             <Button

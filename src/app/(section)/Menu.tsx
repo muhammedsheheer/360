@@ -66,7 +66,7 @@ const Menu = ({}) => {
             <div>
               <Button className="rounded-none bg-transparent px-4 py-6 text-[#fff] ring-1 ring-[#BC995D] hover:bg-[#fff] hover:text-[#BC995D] md:px-5 md:py-7">
                 <Link
-                  href={"/menu"}
+                  href={""}
                   className="flex flex-row items-center justify-center gap-2 text-center font-manrope text-xs font-[600] uppercase tracking-[1.96px] md:text-sm"
                 >
                   View Menu <ArrowRight className="w-6 text-[#BC995D]" />
