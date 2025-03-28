@@ -71,10 +71,10 @@ const Footer = ({}) => {
                 Contact
               </h6>
               <Link
-                href="tel:+441513453923"
+                href="tel:+447707070732"
                 className="font-manrope text-sm font-[400] [color:var(--text-light,#FBEAD2)]"
               >
-                +44 151 345 3923
+                +44 7707 070732
               </Link>
               <Link
                 href="https://maps.app.goo.gl/ZTaWWUnjRAwJ24Mn8"

@@ -264,8 +264,8 @@ const Contact = ({}) => {
                   </div>
                 </div>
                 <div className="flex flex-col gap-4">
-                  <Link href="tel:+441513453923">
-                    <p>+441513453923</p>
+                  <Link href="tel:+447707070732">
+                    <p>+44 7707 070732</p>
                   </Link>
                 </div>
               </div>
