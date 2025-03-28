@@ -114,13 +114,6 @@ const Footer = ({}) => {
                   {" "}
                   <Icons.google className="[color:var(--text-light,#FBEAD2)]" />
                 </Link>
-                <Link
-                  href={"https://www.facebook.com/360lounge/"}
-                  target="_blank"
-                >
-                  {" "}
-                  <Icons.facebook className="[color:var(--text-light,#FBEAD2)]" />
-                </Link>
               </div>
             </div>
           </div>

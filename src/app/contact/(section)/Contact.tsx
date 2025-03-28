@@ -131,18 +131,6 @@ const Contact = ({}) => {
                       <Icons.google />
                     </Link>
                   </Button>
-                  <Button
-                    className="px-1 py-1 text-white hover:bg-transparent hover:text-white"
-                    variant="ghost"
-                    asChild
-                  >
-                    <Link
-                      href="https://www.facebook.com/360lounge/"
-                      target="_blank"
-                    >
-                      <Icons.facebook />
-                    </Link>
-                  </Button>
                 </div>
               </div>
               <div className="flex flex-col gap-4">
