@@ -51,7 +51,7 @@ const Hero = ({}) => {
               360KEBAB& <br />
               STEAKHOUSE
             </h1>
-            <div className="flex flex-row items-center justify-center gap-3">
+            {/* <div className="flex flex-row items-center justify-center gap-3">
               <Link href="">
                 <Button className="hero-button flex items-center justify-center gap-3 rounded-none bg-[#FBEAD2] px-7 py-7 text-center font-manrope text-sm font-[600] uppercase tracking-[1.96px] text-[#282828] hover:bg-[#f2e6d5]">
                   Order NOw
@@ -62,7 +62,7 @@ const Hero = ({}) => {
                   View Menu
                 </Button>
               </Link>
-            </div>
+            </div> */}
           </div>
         </div>
       </div>

@@ -23,12 +23,19 @@ const Footer = ({}) => {
           </div>
           <div className="flex flex-col items-start justify-start gap-4 md:flex-row md:gap-16">
             <div className="flex flex-col items-start justify-start gap-2">
-              <Button
+              {/* <Button
                 variant="link"
                 className="font-manrope text-base font-[400] tracking-[1px] [color:var(--text-light,#FBEAD2)]"
                 asChild
               >
                 <Link href="">Menu</Link>
+              </Button> */}
+              <Button
+                variant="link"
+                className="font-manrope text-base font-[400] tracking-[1px] [color:var(--text-light,#FBEAD2)]"
+                asChild
+              >
+                <Link href="/">Home</Link>
               </Button>
               <Button
                 variant="link"

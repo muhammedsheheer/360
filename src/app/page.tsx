@@ -41,9 +41,9 @@ export default function HomePage() {
         <Map />
         <Footer />
       </div>
-      <div className="fixed bottom-6 right-8 z-50 hidden md:flex">
+      {/* <div className="fixed bottom-6 right-8 z-50 hidden md:flex">
         <ViewMenu />
-      </div>
+      </div> */}
     </main>
   );
 }

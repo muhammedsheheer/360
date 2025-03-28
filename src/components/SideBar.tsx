@@ -30,12 +30,12 @@ const Sidebar: FC<SidebarProps> = ({ children }) => {
             >
               Home
             </Link>
-            <Link
+            {/* <Link
               href=""
               className="flex w-full justify-start p-0 font-playfair text-4xl font-normal text-accent text-white"
             >
               Menu
-            </Link>
+            </Link> */}
             <Link
               href="/about-us"
               className="flex w-full justify-start p-0 font-playfair text-4xl font-normal text-accent text-white"
