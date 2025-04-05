@@ -28,7 +28,7 @@ const Footer = ({}) => {
                 className="font-manrope text-base font-[400] tracking-[1px] [color:var(--text-light,#FBEAD2)]"
                 asChild
               >
-                <Link href="">Menu</Link>
+                <Link href="/menu">Menu</Link>
               </Button>
               <Button
                 variant="link"
