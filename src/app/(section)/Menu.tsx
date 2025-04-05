@@ -63,16 +63,16 @@ const Menu = ({}) => {
               quality. Every dish is a labor of love, crafted by our experienced
               chefs who handpick each cut to ensure perfection.
             </p>
-            {/* <div>
+            <div>
               <Button className="rounded-none bg-transparent px-4 py-6 text-[#fff] ring-1 ring-[#BC995D] hover:bg-[#fff] hover:text-[#BC995D] md:px-5 md:py-7">
                 <Link
-                  href={""}
+                  href={"/menu"}
                   className="flex flex-row items-center justify-center gap-2 text-center font-manrope text-xs font-[600] uppercase tracking-[1.96px] md:text-sm"
                 >
                   View Menu <ArrowRight className="w-6 text-[#BC995D]" />
                 </Link>
               </Button>
-            </div> */}
+            </div>
           </div>
         </div>
         <div className="flex flex-col gap-4 px-6 md:hidden">

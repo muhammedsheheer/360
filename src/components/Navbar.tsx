@@ -86,13 +86,13 @@ const Navbar = ({
             >
               <Link href="/">Home</Link>
             </Button>
-            {/* <Button
+            <Button
               asChild
               variant="link"
               className="px-0 uppercase text-[#FBEAD2]"
             >
-              <Link href="">Menu</Link>
-            </Button> */}
+              <Link href="/menu">Menu</Link>
+            </Button>
 
             <Button
               asChild

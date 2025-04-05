@@ -23,13 +23,13 @@ const Footer = ({}) => {
           </div>
           <div className="flex flex-col items-start justify-start gap-4 md:flex-row md:gap-16">
             <div className="flex flex-col items-start justify-start gap-2">
-              {/* <Button
+              <Button
                 variant="link"
                 className="font-manrope text-base font-[400] tracking-[1px] [color:var(--text-light,#FBEAD2)]"
                 asChild
               >
                 <Link href="">Menu</Link>
-              </Button> */}
+              </Button>
               <Button
                 variant="link"
                 className="font-manrope text-base font-[400] tracking-[1px] [color:var(--text-light,#FBEAD2)]"
@@ -98,7 +98,7 @@ const Footer = ({}) => {
                   {" "}
                   <Icons.instagram className="[color:var(--text-light,#FBEAD2)]" />
                 </Link>
-                {/* <Link
+                <Link
                   href={
                     "https://www.tripadvisor.com/Restaurant_Review-g187069-d19297066-Reviews-360_Lounge-Manchester_Greater_Manchester_England.html"
                   }
@@ -106,7 +106,7 @@ const Footer = ({}) => {
                 >
                   {" "}
                   <Icons.unknown className="[color:var(--text-light,#FBEAD2)]" />
-                </Link> */}
+                </Link>
                 <Link
                   href={"https://maps.app.goo.gl/ZTaWWUnjRAwJ24Mn8"}
                   target="_blank"

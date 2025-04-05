@@ -51,18 +51,18 @@ const Hero = ({}) => {
               360KEBAB& <br />
               STEAKHOUSE
             </h1>
-            {/* <div className="flex flex-row items-center justify-center gap-3">
-              <Link href="">
+            <div className="flex flex-row items-center justify-center gap-3">
+              <Link href="/menu">
                 <Button className="hero-button flex items-center justify-center gap-3 rounded-none bg-[#FBEAD2] px-7 py-7 text-center font-manrope text-sm font-[600] uppercase tracking-[1.96px] text-[#282828] hover:bg-[#f2e6d5]">
                   Order NOw
                 </Button>
               </Link>
-              <Link href="">
+              <Link href="/menu">
                 <Button className="hero-button flex items-center justify-center gap-3 rounded-none bg-[#BC995D] px-7 py-7 text-center font-manrope text-sm font-[600] uppercase tracking-[1.96px] text-[#282828] hover:bg-[#f5cb82]">
                   View Menu
                 </Button>
               </Link>
-            </div> */}
+            </div>
           </div>
         </div>
       </div>
