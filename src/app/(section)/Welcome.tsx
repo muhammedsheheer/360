@@ -48,7 +48,7 @@ const Welcome: React.FC = () => {
           <div className="flex flex-col gap-6 px-4 md:gap-20">
             {" "}
             <Image
-              src={"/images/home/welcome/image2.png"}
+              src={"/images/home/welcome/1.jpg"}
               width={160}
               height={160}
               alt="logo"
