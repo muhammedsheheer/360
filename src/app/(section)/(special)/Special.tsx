@@ -84,12 +84,7 @@ const Special = ({}) => {
   }, []);
   return (
     <section className="relative flex h-full w-full justify-center bg-[#070707] pb-12 pt-12 md:pb-16 md:pt-32">
-      <div className="absolute right-[17%] top-[40%] hidden md:block">
-        <p className="w-full max-w-[250px] font-manrope text-sm font-[300] tracking-[0.54px] text-[#C1B6A6]">
-          360 was born from a passion for bringing the finest cuts of beef to
-          the table, with a commitment to sustainability.
-        </p>
-      </div>
+     
       <div className="absolute left-[20%] top-[25%] flex flex-col gap-4">
         <h1 className="hidden px-4 font-playfair text-sm font-[600] uppercase italic tracking-[1.96px] text-[#DCDCDC] md:block">
           Special
