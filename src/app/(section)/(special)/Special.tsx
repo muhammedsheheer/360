@@ -84,8 +84,7 @@ const Special = ({}) => {
   }, []);
   return (
     <section className="relative flex h-full w-full justify-center bg-[#070707] pb-12 pt-12 md:pb-16 md:pt-32">
-     
-      <div className="absolute left-[20%] top-[25%] flex flex-col gap-4">
+      <div className="absolute left-[20%] top-[20%] flex flex-col gap-4">
         <h1 className="hidden px-4 font-playfair text-sm font-[600] uppercase italic tracking-[1.96px] text-[#DCDCDC] md:block">
           Special
         </h1>

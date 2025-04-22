@@ -31,10 +31,10 @@ export default function HomePage() {
       <div className="flex h-full w-full flex-col items-center justify-center bg-[#000000]">
         <Navbar position="fixed" />
         <Hero />
+        <Special />
         <Welcome />
         <Menu />
         <Experience />
-        <Special />
         <Reserve />
         <Reviews />
         <Follow />
