@@ -143,7 +143,7 @@ const Experience = ({}) => {
               </div>
 
               <Image
-                src="/images/home/experience/image1.png"
+                src="/images/home/experience/1.jpg"
                 width={160}
                 height={160}
                 alt="logo"

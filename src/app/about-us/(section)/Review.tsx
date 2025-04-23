@@ -74,42 +74,49 @@ const Reviews = ({}) => {
           {reviews && (
             <Carousel className="w-full px-4">
               <CarouselContent className="ml-4 flex w-full justify-center gap-4 md:gap-14">
-                {reviews.map((review, index) => (
-                  <CarouselItem
-                    key={index}
-                    className="flex h-[400px] w-full max-w-[700px] basis-full flex-col items-center justify-center gap-6 rounded-none border border-[#CFAC6A] bg-[#000] px-6 py-8 md:h-[450px]"
-                  >
-                    <div className="flex w-full items-center justify-center">
-                      {Array.from({ length: review.rating }).map((_, index) => (
-                        <Icons.star key={index} className="text-[#B99647]" />
-                      ))}
-                    </div>
-                    <div className="flex items-center justify-center">
-                      <p className="line-clamp-5 text-center text-[#fff]">
-                        {review.text.text}
-                      </p>
-                    </div>
-                    <div className="flex w-full flex-col items-center gap-2">
-                      <Image
-                        src={
-                          review.authorAttribution.photoUri ||
-                          "/images/home/reviews/pictures/anna-mathew.svg"
-                        }
-                        width={64}
-                        height={64}
-                        alt={review.authorAttribution.displayName}
-                      />
-                      <div className="flex flex-col gap-2">
-                        <p className="text-center text-[#fff]">
-                          {review.authorAttribution.displayName}
-                        </p>
-                        <span className="text-center text-[#fff]">
-                          {review.relativePublishTimeDescription}
-                        </span>
+                {reviews
+                  .filter((review) => review.rating >= 4)
+                  .map((review, index) => (
+                    <CarouselItem
+                      key={index}
+                      className="flex h-[400px] w-full max-w-[710px] basis-full flex-col items-center justify-center gap-6 rounded-none border border-[#CFAC6A] bg-[#000] px-6 py-8 md:h-[450px]"
+                    >
+                      <div className="flex w-full items-center justify-center">
+                        {Array.from({ length: review.rating }).map(
+                          (_, index) => (
+                            <Icons.star
+                              key={index}
+                              className="text-[#B99647]"
+                            />
+                          ),
+                        )}
                       </div>
-                    </div>
-                  </CarouselItem>
-                ))}
+                      <div className="flex items-center justify-center">
+                        <p className="line-clamp-5 text-center text-[#fff]">
+                          {review.text.text}
+                        </p>
+                      </div>
+                      <div className="flex w-full flex-col items-center gap-2">
+                        <Image
+                          src={
+                            review.authorAttribution.photoUri ||
+                            "/images/home/reviews/pictures/anna-mathew.svg"
+                          }
+                          width={64}
+                          height={64}
+                          alt={review.authorAttribution.displayName}
+                        />
+                        <div className="flex flex-col gap-2">
+                          <p className="text-center text-[#fff]">
+                            {review.authorAttribution.displayName}
+                          </p>
+                          <span className="text-center text-[#fff]">
+                            {review.relativePublishTimeDescription}
+                          </span>
+                        </div>
+                      </div>
+                    </CarouselItem>
+                  ))}
               </CarouselContent>
               <div className="group absolute -bottom-12 left-1/2 flex w-fit -translate-x-1/2 transform items-center gap-2 transition-transform duration-300 ease-in-out">
                 <CarouselPrevious className="border-[#CFAC6A] text-[#CFAC6A] transition-transform duration-300 ease-in-out group-hover:-translate-x-2" />

@@ -12,6 +12,13 @@ const Footer = ({}) => {
           © 2025 360KEBAB&STEAKHOUSE
         </span>
       </div>
+      <div className="absolute bottom-14 left-20 hidden md:block">
+        <Link href={"https://foodo.ai/"} target="_blank">
+          <span className="font-manrope text-sm font-[400] tracking-[0.96px] text-[#64615C]">
+            Powerd by fodo{" "}
+          </span>
+        </Link>
+      </div>
       <div className="flex flex-col gap-6 md:flex-row md:gap-20 2xl:gap-44">
         {/* first div */}
         <div className="flex flex-col gap-6 md:gap-12">
@@ -142,10 +149,16 @@ const Footer = ({}) => {
               </div>
             </div>
           </div>
-          <div className="md:hidden">
+          <div className="flex flex-col gap-1 md:hidden">
             <span className="font-manrope text-sm font-[400] tracking-[0.96px] text-[#64615C]">
               © 2025 360KEBAB&STEAKHOUSE
             </span>
+
+            <Link href={"https://foodo.ai/"} target="_blank">
+              <span className="font-manrope text-sm font-[400] tracking-[0.96px] text-[#64615C]">
+                Powerd by fodo{" "}
+              </span>
+            </Link>
           </div>
         </div>
       </div>

@@ -47,7 +47,7 @@ const Follow: React.FC = () => {
             <div className="w-full lg:w-[25%]">
               {" "}
               <Image
-                src={"/images/home/follow/image3.png"}
+                src={"/images/home/follow/1.jpg"}
                 width={160}
                 height={160}
                 alt="logo"
@@ -65,11 +65,11 @@ const Follow: React.FC = () => {
             <div className="w-full lg:w-[50%]">
               {" "}
               <Image
-                src={"/images/home/follow/image4.png"}
+                src={"/images/home/follow/2.jpg"}
                 width={160}
                 height={160}
                 alt="logo"
-                className="h-[300px] w-full object-cover lg:h-full"
+                className="h-[300px] w-full lg:h-full"
               />
             </div>
 
